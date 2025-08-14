@@ -1,8 +1,8 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -25,7 +25,7 @@ body{
     width: 40px;
 }
 .logo h1 {
-    font-style: italic;
+   font-family: cursive;
     color: white;
     font-size: 22px;
     margin: 0;
@@ -45,4 +45,74 @@ body{
 }
 .nav-links a:hover {
     color: #08afd0;
+}
+/* HEADING SECTION */
+.heading-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+.main-heading {
+    font-size: 2.5rem;
+    color: #010d1d;
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+.heading-section p{
+    font-weight:bold;
+    color: #08afd0;
+
+}
+.main-heading:hover {
+    color: #08afd0;
+    transform: scale(1.05);
+}
+.intro-text {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #333;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* TWO COLUMNS */
+.two-columns {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+    background-color: #010d1d;
+}
+.column {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* BOXES */
+.box {
+    background: white;
+    padding: 25px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+.box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+.box i {
+    font-size: 2rem;
+    color: #08afd0;
+    margin-bottom: 10px;
+}
+.box h3 {
+    margin-bottom: 10px;
+    color: #010d1d;
+}
+.box p {
+    color: #555;
 }
